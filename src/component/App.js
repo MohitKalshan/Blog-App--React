@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="container">
       <Routes>
-        <Route exact path="/" Component={<Home/>} />
-        <Route exact path="/post/:postid" Component={<PostDetail/>} />
-        <Route exact path="/create-post" Component={<CreatePost/>} />
+        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/post/:postid" element={<PostDetail/>} />
+        <Route exact path="/create-post" element={<CreatePost/>} />
       </Routes>
     </div>
   );
